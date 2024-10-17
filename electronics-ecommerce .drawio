@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17" pages="2">
   <diagram name="ERD" id="sPKTCWyB7TIudmBx3HDe">
-    <mxGraphModel dx="3493" dy="4265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3493" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1426,13 +1426,186 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="owqI6YVpY6GFYArG3Q-5-1" value="&lt;h1 style=&quot;text-align: left; margin-top: 0px;&quot;&gt;Sơ đồ ERD Shop bán linh kiện điện tử&lt;/h1&gt;&lt;h2 style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/h2&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="So_IVNJddb9iTT1OmY2K-1" value="tags" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="-500" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-1">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-3" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-2">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-4" value="UniqueID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-2">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-1">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-5">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-7" value="Row 1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-5">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-1">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-9" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-8">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-10" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-8">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-1">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-12" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-11">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-13" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-11">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-14" value="banners" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-500" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-14">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-16" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-15">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-17" value="UniqueID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-15">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-14">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-19" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-18">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-20" value="Row 1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-18">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-14">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-22" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-21">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-23" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-21">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-24" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-14">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-25" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-24">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-26" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-24">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-27" value="orders" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-500" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-27">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-29" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-28">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-30" value="UniqueID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-28">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-27">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-32" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-31">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-33" value="Row 1" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-31">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-27">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-35" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-34">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-36" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-34">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-37" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-27">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-38" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-37">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So_IVNJddb9iTT1OmY2K-39" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="So_IVNJddb9iTT1OmY2K-37">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YO2iFPbrHKrwTskVb4Q4" name="mô tả chức năng">
+    <mxGraphModel dx="3434" dy="4911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eySnuw8UDtZYYfxYcUbC-1" value="&lt;h1 style=&quot;text-align: left; margin-top: 0px;&quot;&gt;mô tả chức năng cửa hàng bán linh kiện điện tử&lt;/h1&gt;&lt;h2 style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/h2&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="-480" y="-2370" width="1420" height="990" as="geometry" />
         </mxCell>
-        <mxCell id="4pEF-sD9kgmYZOU53kXh-2" value="&lt;h3 style=&quot;text-align: center;&quot;&gt;Client-side Functions (Chức năng dành cho khách hàng)&lt;/h3&gt;&lt;h4&gt;User Management (Quản lý người dùng)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Create, Update, Delete users&lt;/strong&gt;: Thêm, sửa, xóa người dùng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User Roles &amp;amp; Permissions&lt;/strong&gt;: Phân quyền cho người dùng (admin, khách hàng).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;View User Profiles&lt;/strong&gt;: Xem chi tiết thông tin cá nhân của người dùng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Order Management (Quản lý đơn hàng)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Create Orders&lt;/strong&gt;: Người dùng có thể tạo đơn hàng mới khi mua linh kiện điện tử.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Update Order Status&lt;/strong&gt;: Khách hàng theo dõi trạng thái đơn hàng (chờ xử lý, đang giao hàng, hoàn thành, hủy).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;View Order History&lt;/strong&gt;: Khách hàng xem lịch sử đơn hàng đã mua.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Manage Refunds/Returns&lt;/strong&gt;: Quản lý yêu cầu hoàn tiền hoặc đổi trả linh kiện.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Generate Invoices&lt;/strong&gt;: Cung cấp hóa đơn cho đơn hàng, gửi qua email hoặc trang tài khoản.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Product Management (Quản lý sản phẩm)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;View Products&lt;/strong&gt;: Hiển thị danh sách linh kiện điện tử cho khách hàng duyệt.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Product Variations&lt;/strong&gt;: Khách hàng có thể chọn các biến thể sản phẩm (màu sắc, dung lượng, tốc độ).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Product Reviews &amp;amp; Ratings&lt;/strong&gt;: Khách hàng đánh giá và xếp hạng linh kiện đã mua.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Authentication &amp;amp; Authorization (Xác thực &amp;amp; Phân quyền)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;User Registration&lt;/strong&gt;: Cho phép khách hàng đăng ký tài khoản.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Login/Logout&lt;/strong&gt;: Đăng nhập và đăng xuất tài khoản khách hàng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Forgot/Reset Password&lt;/strong&gt;: Hỗ trợ người dùng lấy lại mật khẩu qua email.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Email Verification&lt;/strong&gt;: Xác thực email khi đăng ký để bảo mật tài khoản.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Two-Factor Authentication (Optional)&lt;/strong&gt;: Tùy chọn bảo mật hai lớp.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Category Management (Quản lý danh mục sản phẩm)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;View Categories&lt;/strong&gt;: Khách hàng duyệt linh kiện theo danh mục (CPU, RAM, bo mạch chủ, etc.).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Assign Products to Categories&lt;/strong&gt;: Gắn linh kiện vào các danh mục để phân loại và tìm kiếm dễ dàng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Brand Management (Quản lý thương hiệu)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;View Brands&lt;/strong&gt;: Hiển thị linh kiện theo thương hiệu cho người dùng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Slides/Banners Management (Quản lý slides/banner)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;View Slides/Banners&lt;/strong&gt;: Hiển thị các slide quảng cáo các sản phẩm mới hoặc ưu đãi.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Notification System (Hệ thống thông báo)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;User Notifications&lt;/strong&gt;: Gửi thông báo về đơn hàng, khuyến mãi, sản phẩm mới cho khách hàng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Coupon/Discount Management (Quản lý mã giảm giá)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Apply Coupons&lt;/strong&gt;: Cho phép khách hàng áp dụng mã giảm giá khi thanh toán.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Track Coupon Usage&lt;/strong&gt;: Theo dõi số lần sử dụng mã giảm giá của khách hàng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Payment Management (Quản lý thanh toán)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Payment Gateway Integration&lt;/strong&gt;: Tích hợp các cổng thanh toán trực tuyến (PayPal, Stripe, thẻ tín dụng, ngân hàng).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Save Payment Methods&lt;/strong&gt;: Lưu thông tin phương thức thanh toán an toàn cho lần mua sau.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Payment Confirmation&lt;/strong&gt;: Xác nhận và gửi biên lai thanh toán cho khách hàng sau khi hoàn tất đơn hàng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Order Refunds&lt;/strong&gt;: Hỗ trợ khách hàng hoàn tiền thông qua phương thức thanh toán ban đầu&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="eySnuw8UDtZYYfxYcUbC-2" value="&lt;h3 style=&quot;text-align: center;&quot;&gt;Client-side Functions (Chức năng dành cho khách hàng)&lt;/h3&gt;&lt;h4&gt;User Management (Quản lý người dùng)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Create, Update, Delete users&lt;/strong&gt;: Thêm, sửa, xóa người dùng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User Roles &amp;amp; Permissions&lt;/strong&gt;: Phân quyền cho người dùng (admin, khách hàng).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;View User Profiles&lt;/strong&gt;: Xem chi tiết thông tin cá nhân của người dùng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Order Management (Quản lý đơn hàng)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Create Orders&lt;/strong&gt;: Người dùng có thể tạo đơn hàng mới khi mua linh kiện điện tử.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Update Order Status&lt;/strong&gt;: Khách hàng theo dõi trạng thái đơn hàng (chờ xử lý, đang giao hàng, hoàn thành, hủy).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;View Order History&lt;/strong&gt;: Khách hàng xem lịch sử đơn hàng đã mua.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Manage Refunds/Returns&lt;/strong&gt;: Quản lý yêu cầu hoàn tiền hoặc đổi trả linh kiện.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Generate Invoices&lt;/strong&gt;: Cung cấp hóa đơn cho đơn hàng, gửi qua email hoặc trang tài khoản.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Product Management (Quản lý sản phẩm)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;View Products&lt;/strong&gt;: Hiển thị danh sách linh kiện điện tử cho khách hàng duyệt.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Product Variations&lt;/strong&gt;: Khách hàng có thể chọn các biến thể sản phẩm (màu sắc, dung lượng, tốc độ).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Product Reviews &amp;amp; Ratings&lt;/strong&gt;: Khách hàng đánh giá và xếp hạng linh kiện đã mua.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Authentication &amp;amp; Authorization (Xác thực &amp;amp; Phân quyền)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;User Registration&lt;/strong&gt;: Cho phép khách hàng đăng ký tài khoản.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Login/Logout&lt;/strong&gt;: Đăng nhập và đăng xuất tài khoản khách hàng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Forgot/Reset Password&lt;/strong&gt;: Hỗ trợ người dùng lấy lại mật khẩu qua email.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Email Verification&lt;/strong&gt;: Xác thực email khi đăng ký để bảo mật tài khoản.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Two-Factor Authentication (Optional)&lt;/strong&gt;: Tùy chọn bảo mật hai lớp.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Category Management (Quản lý danh mục sản phẩm)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;View Categories&lt;/strong&gt;: Khách hàng duyệt linh kiện theo danh mục (CPU, RAM, bo mạch chủ, etc.).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Assign Products to Categories&lt;/strong&gt;: Gắn linh kiện vào các danh mục để phân loại và tìm kiếm dễ dàng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Brand Management (Quản lý thương hiệu)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;View Brands&lt;/strong&gt;: Hiển thị linh kiện theo thương hiệu cho người dùng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Slides/Banners Management (Quản lý slides/banner)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;View Slides/Banners&lt;/strong&gt;: Hiển thị các slide quảng cáo các sản phẩm mới hoặc ưu đãi.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Notification System (Hệ thống thông báo)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;User Notifications&lt;/strong&gt;: Gửi thông báo về đơn hàng, khuyến mãi, sản phẩm mới cho khách hàng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Coupon/Discount Management (Quản lý mã giảm giá)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Apply Coupons&lt;/strong&gt;: Cho phép khách hàng áp dụng mã giảm giá khi thanh toán.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Track Coupon Usage&lt;/strong&gt;: Theo dõi số lần sử dụng mã giảm giá của khách hàng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Payment Management (Quản lý thanh toán)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Payment Gateway Integration&lt;/strong&gt;: Tích hợp các cổng thanh toán trực tuyến (PayPal, Stripe, thẻ tín dụng, ngân hàng).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Save Payment Methods&lt;/strong&gt;: Lưu thông tin phương thức thanh toán an toàn cho lần mua sau.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Payment Confirmation&lt;/strong&gt;: Xác nhận và gửi biên lai thanh toán cho khách hàng sau khi hoàn tất đơn hàng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Order Refunds&lt;/strong&gt;: Hỗ trợ khách hàng hoàn tiền thông qua phương thức thanh toán ban đầu&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="-460" y="-2330" width="660" height="890" as="geometry" />
         </mxCell>
-        <mxCell id="4pEF-sD9kgmYZOU53kXh-3" value="&lt;h3 style=&quot;text-align: center;&quot;&gt;System-side Functions (Chức năng hệ thống)&lt;/h3&gt;&lt;h4&gt;Admin User Management (Quản lý tài khoản quản trị viên)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Create, Update, Delete Admins&lt;/strong&gt;: Thêm, chỉnh sửa, xóa các tài khoản quản trị viên.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Admin Roles &amp;amp; Permissions&lt;/strong&gt;: Quản lý vai trò và quyền hạn cho các quản trị viên (super admin, moderator).&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Order Management (Quản lý đơn hàng)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Update Order Status&lt;/strong&gt;: Quản trị viên thay đổi trạng thái đơn hàng (chờ xử lý, đang giao hàng, hoàn thành, hủy).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;View Order History&lt;/strong&gt;: Theo dõi và xem lịch sử tất cả các đơn hàng trong hệ thống.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Manage Refunds/Returns&lt;/strong&gt;: Xử lý các yêu cầu hoàn tiền và đổi trả sản phẩm.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Generate Invoices&lt;/strong&gt;: Tạo và gửi hóa đơn cho đơn hàng trực tiếp từ hệ thống.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Product Management (Quản lý sản phẩm&lt;span style=&quot;font-weight: normal;&quot;&gt;)&lt;/span&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Add, Edit, Delete Products&lt;/strong&gt;: Thêm, sửa, xóa các linh kiện điện tử mới vào kho hàng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Product Inventory&lt;/strong&gt;: Quản lý số lượng hàng tồn kho, cảnh báo khi linh kiện hết hàng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Bulk Import/Export&lt;/strong&gt;: Hỗ trợ nhập và xuất danh sách linh kiện hàng loạt qua các file CSV hoặc Excel.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Product Reviews &amp;amp; Ratings&lt;/strong&gt;: Quản lý, duyệt hoặc xóa các đánh giá và xếp hạng của khách hàng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Category Management (Quản lý danh mục sản phẩm)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Add, Edit, Delete Categories&lt;/strong&gt;: Quản trị viên thêm mới, chỉnh sửa hoặc xóa danh mục linh kiện.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Brand Management (Quản lý thương hiệu)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Add, Edit, Delete Brands&lt;/strong&gt;: Thêm mới, chỉnh sửa, hoặc xóa thương hiệu linh kiện.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Slides/Banners Management (Quản lý slides/banner)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Add, Edit, Delete Slides&lt;/strong&gt;: Tạo mới, chỉnh sửa hoặc xóa slide/banner quảng cáo.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Schedule Slides&lt;/strong&gt;: Quản lý thời gian hiển thị slide/banner.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Notification System (Hệ thống thông báo)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Admin Notifications&lt;/strong&gt;: Gửi thông báo cho quản trị viên khi có sự kiện quan trọng (đơn hàng mới, sản phẩm hết hàng).&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Analytics &amp;amp; Statistics (Thống kê)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Sales Reports&lt;/strong&gt;: Thống kê doanh số bán hàng theo ngày, tuần, tháng, năm.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Product Performance&lt;/strong&gt;: Báo cáo sản phẩm bán chạy, tồn kho.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User Activity Reports&lt;/strong&gt;: Thống kê số lượng người dùng đăng ký, hoạt động của người dùng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Order Reports&lt;/strong&gt;: Báo cáo về số lượng đơn hàng, tình trạng đơn hàng và tổng doanh thu.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Discount &amp;amp; Coupon Usage&lt;/strong&gt;: Thống kê việc sử dụng phiếu giảm giá.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Tag Management (Quản lý thẻ sản phẩm)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Add, Edit, Delete Tags&lt;/strong&gt;: Tạo mới, sửa hoặc xóa các thẻ sản phẩm.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Tag Products&lt;/strong&gt;: Gắn thẻ sản phẩm để dễ dàng quản lý và tìm kiếm.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Settings (Cài đặt hệ thống)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;General Settings&lt;/strong&gt;: Tùy chỉnh các cài đặt hệ thống như tên website, ngôn ngữ, múi giờ.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;SEO Settings&lt;/strong&gt;: Cài đặt các thông số SEO như tiêu đề, meta description và từ khóa.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Email &amp;amp; Notification Settings&lt;/strong&gt;: Thiết lập các thông báo và email hệ thống, bao gồm SMTP.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Authentication &amp;amp; Authorization (Xác thực &amp;amp; Phân quyền)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Admin Login/Logout&lt;/strong&gt;: Đăng nhập và đăng xuất cho quản trị viên.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eySnuw8UDtZYYfxYcUbC-3" value="&lt;h3 style=&quot;text-align: center;&quot;&gt;System-side Functions (Chức năng hệ thống)&lt;/h3&gt;&lt;h4&gt;Admin User Management (Quản lý tài khoản quản trị viên)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Create, Update, Delete Admins&lt;/strong&gt;: Thêm, chỉnh sửa, xóa các tài khoản quản trị viên.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Admin Roles &amp;amp; Permissions&lt;/strong&gt;: Quản lý vai trò và quyền hạn cho các quản trị viên (super admin, moderator).&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Order Management (Quản lý đơn hàng)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Update Order Status&lt;/strong&gt;: Quản trị viên thay đổi trạng thái đơn hàng (chờ xử lý, đang giao hàng, hoàn thành, hủy).&lt;/li&gt;&lt;li&gt;&lt;strong&gt;View Order History&lt;/strong&gt;: Theo dõi và xem lịch sử tất cả các đơn hàng trong hệ thống.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Manage Refunds/Returns&lt;/strong&gt;: Xử lý các yêu cầu hoàn tiền và đổi trả sản phẩm.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Generate Invoices&lt;/strong&gt;: Tạo và gửi hóa đơn cho đơn hàng trực tiếp từ hệ thống.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Product Management (Quản lý sản phẩm&lt;span style=&quot;font-weight: normal;&quot;&gt;)&lt;/span&gt;&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Add, Edit, Delete Products&lt;/strong&gt;: Thêm, sửa, xóa các linh kiện điện tử mới vào kho hàng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Product Inventory&lt;/strong&gt;: Quản lý số lượng hàng tồn kho, cảnh báo khi linh kiện hết hàng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Bulk Import/Export&lt;/strong&gt;: Hỗ trợ nhập và xuất danh sách linh kiện hàng loạt qua các file CSV hoặc Excel.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Product Reviews &amp;amp; Ratings&lt;/strong&gt;: Quản lý, duyệt hoặc xóa các đánh giá và xếp hạng của khách hàng.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Category Management (Quản lý danh mục sản phẩm)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Add, Edit, Delete Categories&lt;/strong&gt;: Quản trị viên thêm mới, chỉnh sửa hoặc xóa danh mục linh kiện.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Brand Management (Quản lý thương hiệu)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Add, Edit, Delete Brands&lt;/strong&gt;: Thêm mới, chỉnh sửa, hoặc xóa thương hiệu linh kiện.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Slides/Banners Management (Quản lý slides/banner)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Add, Edit, Delete Slides&lt;/strong&gt;: Tạo mới, chỉnh sửa hoặc xóa slide/banner quảng cáo.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Schedule Slides&lt;/strong&gt;: Quản lý thời gian hiển thị slide/banner.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Notification System (Hệ thống thông báo)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Admin Notifications&lt;/strong&gt;: Gửi thông báo cho quản trị viên khi có sự kiện quan trọng (đơn hàng mới, sản phẩm hết hàng).&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Analytics &amp;amp; Statistics (Thống kê)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Sales Reports&lt;/strong&gt;: Thống kê doanh số bán hàng theo ngày, tuần, tháng, năm.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Product Performance&lt;/strong&gt;: Báo cáo sản phẩm bán chạy, tồn kho.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User Activity Reports&lt;/strong&gt;: Thống kê số lượng người dùng đăng ký, hoạt động của người dùng.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Order Reports&lt;/strong&gt;: Báo cáo về số lượng đơn hàng, tình trạng đơn hàng và tổng doanh thu.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Discount &amp;amp; Coupon Usage&lt;/strong&gt;: Thống kê việc sử dụng phiếu giảm giá.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Tag Management (Quản lý thẻ sản phẩm)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Add, Edit, Delete Tags&lt;/strong&gt;: Tạo mới, sửa hoặc xóa các thẻ sản phẩm.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Tag Products&lt;/strong&gt;: Gắn thẻ sản phẩm để dễ dàng quản lý và tìm kiếm.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Settings (Cài đặt hệ thống)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;General Settings&lt;/strong&gt;: Tùy chỉnh các cài đặt hệ thống như tên website, ngôn ngữ, múi giờ.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;SEO Settings&lt;/strong&gt;: Cài đặt các thông số SEO như tiêu đề, meta description và từ khóa.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Email &amp;amp; Notification Settings&lt;/strong&gt;: Thiết lập các thông báo và email hệ thống, bao gồm SMTP.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Authentication &amp;amp; Authorization (Xác thực &amp;amp; Phân quyền)&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Admin Login/Logout&lt;/strong&gt;: Đăng nhập và đăng xuất cho quản trị viên.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="-2330" width="720" height="930" as="geometry" />
         </mxCell>
       </root>
