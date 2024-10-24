@@ -388,3 +388,9 @@
 
     </div> <!-- container-fluid -->
 @endsection
+@push('body-js')
+    <!-- Apexcharts JS -->
+    <script src="{{ Vite::asset('resources/assets/libs/apexcharts/apexcharts.min.js') }}"></script>ApexCharts
+    <!-- Widgets Init Js -->
+    <script src="{{ Vite::asset('resources/assets/js/pages/analytics-dashboard.init.js') }}"></script>
+@endpush

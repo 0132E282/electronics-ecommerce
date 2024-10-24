@@ -1,9 +1,14 @@
 // Fonts
 @import url('https://fonts.bunny.net/css?family=Nunito');
-
 // Variables
 @import 'variables';
 
 // Bootstrap
+@import "select2/dist/css/select2.min.css";
 @import 'bootstrap/scss/bootstrap';
+
+.hidden-icon-dropdown.dropdown-toggle::after {
+    display: none; /* Ẩn icon */
+}
+
 

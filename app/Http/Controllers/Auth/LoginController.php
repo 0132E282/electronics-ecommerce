@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers\Auth;
 
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\Request;
+use Illuminate\Support\Str;
 
 class LoginController extends Controller
 {
@@ -25,7 +28,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo;
 
     /**
      * Create a new controller instance.
@@ -36,5 +39,12 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
         $this->middleware('auth')->only('logout');
+    }
+    public function redirectTo()
+    {
+        if (!empty(request()->type) && request()->type == 'admin') {
+            return '/admin';
+        }
+        return '/home';
     }
 }

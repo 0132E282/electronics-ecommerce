@@ -23,7 +23,8 @@
         <div id="app">
             @yield('content-app')
         </div>
+        @stack('body-js')
+
     </body>
-    @stack('footer')
 
 </html>

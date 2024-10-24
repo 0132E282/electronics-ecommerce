@@ -150,21 +150,18 @@
 
                 <li class="dropdown notification-list topbar-dropdown">
                     <a class="nav-link dropdown-toggle nav-user me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                        <img src="assets/images/users/user-11.jpg" alt="user-image" class="rounded-circle">
+                        <img class="img-fluid rounded-circle" src="{{ !empty($account->photo_url) ? Storage::url($account->photo_url) : '' }}" onerror="this.onerror=null; this.src='{{ Vite::asset('resources/assets/images/default/avatar.jpg') }}';"
+                            alt="user-image">
                         <span class="pro-user-name ms-1">
-                            Christian <i class="mdi mdi-chevron-down"></i>
+                            {{ !empty($account->name) ? $account->name : '' }} <i class="mdi mdi-chevron-down"></i>
                         </span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
-                        <!-- item-->
-                        <div class="dropdown-header noti-title">
-                            <h6 class="text-overflow m-0">Welcome !</h6>
-                        </div>
 
                         <!-- item-->
                         <a class='dropdown-item notify-item' href='pages-profile.html'>
                             <i class="mdi mdi-account-circle-outline fs-16 align-middle"></i>
-                            <span>My Account</span>
+                            <span>Thông Tin</span>
                         </a>
 
                         <!-- item-->
@@ -176,17 +173,17 @@
                         <div class="dropdown-divider"></div>
 
                         <!-- item-->
-                        <a class='dropdown-item notify-item' href='auth-logout.html'>
-                            <i class="mdi mdi-location-exit fs-16 align-middle"></i>
-                            <span>Logout</span>
-                        </a>
+                        <x-form method="post" action="{{ route('logout') }}">
+                            <button class='dropdown-item notify-item'>
+                                <i class="mdi mdi-location-exit fs-16 align-middle"></i>
+                                <span>Đăng Xuất</span>
+                            </button>
+                        </x-form>
 
                     </div>
                 </li>
 
             </ul>
         </div>
-
     </div>
-
 </div>

@@ -20,27 +20,38 @@ class Admin extends Component
         return [
             [
                 'name' => 'Dashboard',
+                'route' => '',
                 'children' => [
                     [
-                        'name' => 'Analytical'
+                        'name' => 'Analytical',
+                        'route' => 'admin.dashboard.submenu1',
+                        'icon' => 'fas fa-box',
 
                     ],
                     [
-                        'name' => 'E-commerce'
+                        'name' => 'E-commerce',
+                        'route' => 'admin.dashboard.submenu1',
+                        'icon' => 'fas fa-box',
                     ]
                 ]
             ],
             [
                 'name' => 'e-commerce',
+                'route' => '',
                 'children' => [
                     [
-                        'name' => 'Tất cả',
+                        'name' => 'Sản phẩm',
                         'route' => 'admin.dashboard.submenu1',
                         'icon' => 'fas fa-box',
                     ],
                     [
                         'name' => 'Danh mục',
-                        'route' => 'admin.dashboard.submenu1',
+                        'route' => route('admin.categories.index', ['type' => 'products']),
+                        'icon' => 'fas fa-box',
+                    ],
+                    [
+                        'name' => 'Thương hiệu',
+                        'route' => route('admin.brands.index'),
                         'icon' => 'fas fa-box',
                     ],
                     [
@@ -67,6 +78,7 @@ class Admin extends Component
             ],
             [
                 'name' => 'Mã giảm giá',
+                'route' => '',
                 'children' => [
                     [
                         'name' => 'Tấ cả',
@@ -78,15 +90,16 @@ class Admin extends Component
             ],
             [
                 'name' => 'Người dùng',
+                'route' => '',
                 'children' => [
                     [
                         'name' => 'Tấ cả',
-                        'route' => 'admin.dashboard.submenu1',
+                        'route' => route('admin.users.index'),
                         'icon' => 'fas fa-box',
                     ],
                     [
                         'name' => 'Hồ sơ',
-                        'route' => 'admin.dashboard.submenu1',
+                        'route' =>  route('admin.users.profile'),
                         'icon' => 'fas fa-box',
                     ],
                     [
@@ -118,7 +131,7 @@ class Admin extends Component
             ],
             [
                 'name' => 'Cài đặt',
-
+                'route' => '',
                 'children' => [
                     [
                         'name' => 'Website',

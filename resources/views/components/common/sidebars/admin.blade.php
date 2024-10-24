@@ -49,7 +49,7 @@
                                   </li>
                               @else
                                   <li>
-                                      <a class='tp-link' href='calendar.html'>
+                                      <a class='tp-link' href='{{ $child['route'] }}'>
                                           <i data-feather="calendar"></i>
                                           <span> {{ $child['name'] }} </span>
                                       </a>
@@ -58,7 +58,7 @@
                           @endforeach
                       @else
                           <li>
-                              <a class='tp-link' href='calendar.html'>
+                              <a class='tp-link' href="{{ $child['route'] }}">
                                   <i data-feather="calendar"></i>
                                   <span> {{ $menu['name'] }} </span>
                               </a>
